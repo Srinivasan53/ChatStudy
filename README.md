@@ -75,7 +75,7 @@ Client-server chat applications are foundational to real-time communication over
 
 ## PROGRAM:
 
-CLIENT:
+### CLIENT:
 
 ```
 import socket
@@ -100,7 +100,7 @@ while not done:
 client.close()
 ```
 
-SERVER:
+### SERVER:
 
 ```import socket
 from base64 import decode
